@@ -13,7 +13,7 @@ document.getElementById("subscribe-form").addEventListener("submit", async (e) =
         
         if (response.ok) {
             alert('Thank you for subscribing! Check your email.');
-            document.getElementById("email").value = ""; // Clear input
+            document.getElementById("email").value = ""; 
         } else {
             alert('Subscription failed. Please try again.');
         }
