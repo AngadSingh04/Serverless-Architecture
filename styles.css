@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.blog-list article {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.subscribe {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type="email"] {
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
